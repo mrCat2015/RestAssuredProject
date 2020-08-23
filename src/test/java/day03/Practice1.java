@@ -30,7 +30,7 @@ public class Practice1 {
         when().
                 get("spartans/search/").
         then().
-                statusCode(200).
+                statusCode(200).//commit
                 log().all();  
 
 
